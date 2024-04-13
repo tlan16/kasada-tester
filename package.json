@@ -1,0 +1,9 @@
+{
+  "name": "kasada-tester",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "puppeteer": "^22.6.4",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
