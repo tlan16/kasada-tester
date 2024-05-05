@@ -9,3 +9,8 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
