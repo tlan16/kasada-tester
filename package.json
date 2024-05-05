@@ -2,16 +2,25 @@
   "name": "kasada-tester",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "playwright test --ui"
+    "start": "node --loader @tlan16/ts-node/esm src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.12.8",
-    "playwright": "^1.43.1",
-    "ts-node": "^10.9.2"
+    "playwright": "^1.43.1"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3",
+  "devDependencies": {
+    "@tlan16/ts-node": "^11.0.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/strictest": "^2.0.5"
   }
 }
